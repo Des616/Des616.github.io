@@ -113,17 +113,7 @@ function rebuildWorld(key) {
   tile_rows = Math.ceil(height / (tile_height_step_main * 2));
 }
 
-function mouseClicked() {
-  let world_pos = screenToWorld(
-    [0 - mouseX, mouseY],
-    [camera_offset.x, camera_offset.y]
-  );
 
-  if (window.p2_tileClicked) {
-    window.p2_tileClicked(world_pos[0], world_pos[1]);
-  }
-  return false;
-}
 
 function draw() {
   // Keyboard controls!
