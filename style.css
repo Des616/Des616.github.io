@@ -1,11 +1,29 @@
-.name1{
-	background-color: rgba(0, 0, 0, 1);
-	color: #0BEB99;
-	font-family: Georgia;
-	height: 30px;
-	width:  180px;
+div.header{
+	width:  250px;
+	height: 28px;
+	text-align: left;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	padding: 3px -15px;
+	
+
 }
 p.description{
 	font-size: 14px;
 }
+p.Name{
+	
+	font-size: 14px;
+	color: darkgreen;
+	
+}
+img.logo{
+	height: 16px;
+	width: 16;
+}
+body{
+	background-color: #D3D0CB;
+}
+
 
