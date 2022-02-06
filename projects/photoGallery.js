@@ -8,7 +8,7 @@
  myPrevButton.onclick = onPrevButtonClick;
 
  var myPics = ["rathalos.png","maplay.png","Monster_Cards.png","weaponlance.png","weaponswordnshield.png","weapondual.png","weaponhammer.png","weaponheavybowgun.png","dice.jpg"]
- var path = "../images/monHunImages/";
+ const var path = "../images/monHunImages/";
  var index = 0;
  function onNextButtonClick(){
     if(index >= myPics.length -1){
