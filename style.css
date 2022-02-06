@@ -3,6 +3,12 @@
 	display: flex;
 
 }
+.title{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 32px;
+	background-color: blueviolet;
+}
 p.description{
 	font-size: 14px;
 }
@@ -18,7 +24,6 @@ body{
 	
 }
 
-
 .hlist{
 	display : inline;
 	padding : 20px;
@@ -26,6 +31,7 @@ body{
 }
 a{
 	color :hotpink;
+	padding: 5px;
 }
 p,h2{
 	 color: rgb(255, 255, 255);
@@ -35,18 +41,43 @@ p,h2{
 	font-family: arial;
 	font-size: 30px;
 	margin: 25px;
-
-	
-	
 	outline: dashed 1px rgb(255, 255, 255);
 	/* Center vertically */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.introduction{
+.aboutMe{
 	text-align: center;
 }
+div.content{
+	width: 700px;
+	height : 550px;
+	justify-content: center;
+	margin: auto;
+    text-align: center;
+	border-style:  solid;
+	border-width: thick;
+	border-color: blueviolet;
+
+}
+#container{
+	width:  550px;
+    height: 300px; 
+	padding: 10px;
+	border-width:  3px;
+	margin: auto;
+	text-align: center;
+    font-size: 18px; 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.subTitle{
+	font-size: 30px;
+	font-family: serif;
+	
+}
+
+
 
 
 
