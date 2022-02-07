@@ -51,14 +51,15 @@ p,h2{
 	text-align: center;
 }
 div.content{
-	width: 700px;
-	height : 550px;
+	width: 800px;
+	height : 580px;
 	justify-content: center;
 	margin: auto;
     text-align: center;
 	border-style:  solid;
 	border-width: thick;
 	border-color: blueviolet;
+	margin-bottom: 20px;
 
 }
 #container{
@@ -72,9 +73,16 @@ div.content{
     font-family: Arial, Helvetica, sans-serif ;
 }
 .subTitle{
-	font-size: 30px;
+	font-size: 18px;
 	font-family: serif;
 	
+}
+label{
+	color:aliceblue;
+	margin: auto;
+}
+input{
+	margin:9px;
 }
 
 

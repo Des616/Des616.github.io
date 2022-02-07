@@ -80,9 +80,6 @@ function setup() {
   var clientWidth = document.getElementById('container').offsetWidth - 6 ;
  // console.log(document.getElementById('content').offsetWidth + 'C');
 
-  
-
-
   let canvas = createCanvas(clientWidth , clientHeight);
   canvas.parent("container");
 
@@ -92,20 +89,14 @@ function setup() {
   if (window.p2_setup) {
     window.p2_setup();
   }
-
-  let label = createP();
-  label.html("World key: ");
-  label.parent("container");
+  let label = document.getElementById('label');
+  
 
   let input = createInput("tree");
   input.parent(label);
   input.input(() => {
     rebuildWorld(input.value());
   });
-
-  createP(
-    "Arrow keys scroll. Experiment with different keys and see what you find"
-  ).parent("container");
 
   rebuildWorld(input.value());
 }
