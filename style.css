@@ -34,7 +34,8 @@ a{
 	padding: 5px;
 }
 p,h2{
-	 color: rgb(255, 255, 255);
+	 color: rgb(228, 228, 228);
+	 text-align: center;
 }
 
 .bodyContent{
@@ -50,9 +51,9 @@ p,h2{
 .aboutMe{
 	text-align: center;
 }
+
 div.content{
 	width: 800px;
-	
 	justify-content: center;
 	margin: auto;
     text-align: center;
